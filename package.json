@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-embed-video",
   "version": "0.0.1",
-  "description": "NodeBB FB-Video Plugin",
+  "description": "With this plugin, video from Youtube, Vimeo, Facebook displays",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

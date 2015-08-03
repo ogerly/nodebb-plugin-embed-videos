@@ -1,11 +1,9 @@
-# NodeBB FB-Video Plugin
+# NodeBB Embed-Video Plugin
 
-This NodeBB plugin allows users to embed Facebook Videos inline in their posts.
+With this plugin, video from Youtube, Vimeo, Facebook displays
 
 ## Installation
 
     npm install nodebb-plugin-embed-video
-
-## Use
-
-    Just drop the link to your Facebook video's page in the NodeBB Compositor.
+ 
+ 
