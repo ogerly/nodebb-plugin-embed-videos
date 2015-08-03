@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-plugin-embed-video",
+  "name": "nodebb-plugin-embed-videos",
   "version": "0.0.1",
-  "description": "With this plugin, video from Youtube, Vimeo, Facebook displays",
+  "description": "With this plugin, videos from Youtube, Vimeo, Facebook displays",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ogerly/nodebb-plugin-embed-video.git"
+    "url": "git+https://github.com/ogerly/nodebb-plugin-embed-videos.git"
   },
   "nbbpm": {
     "compatibility": "^0.7.2"
