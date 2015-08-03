@@ -1,0 +1,29 @@
+{
+  "name": "nodebb-plugin-embed-video",
+  "version": "0.0.1",
+  "description": "NodeBB FB-Video Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogerly/nodebb-plugin-embed-video.git"
+  },
+  "nbbpm": {
+    "compatibility": "^0.7.2"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "facebook",
+    "youtube",
+    "vimeo",
+    "video",
+    "embed"
+  ],
+  "author": {
+    "name": "ogerly",
+    "email": "landmatrosen@gmail.com"
+  }
+ }
