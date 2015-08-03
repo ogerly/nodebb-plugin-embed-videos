@@ -1,6 +1,10 @@
 # NodeBB Embed-Videos Plugin
 
-With this plugin, video from Youtube, Vimeo, Facebook displays
+With this plugin, video from Youtube, Vimeo, Facebook displays.
+
+    the url must be in a <a> day.
+    is detected, the entire link and the respective ID.
+
 
 ## Installation
 
