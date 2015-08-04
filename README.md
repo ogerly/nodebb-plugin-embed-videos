@@ -1,6 +1,6 @@
 # NodeBB Embed-Videos Plugin
 
-With this plugin, video from Youtube, Vimeo, Facebook displays.
+With this plugin, video from Youtube, Vimeo, Facebook, Vine, Dailymotion displays.
 
     the url must be in a <a> day.
     is detected, the entire link and the respective ID.
@@ -12,25 +12,39 @@ With this plugin, video from Youtube, Vimeo, Facebook displays.
     
     
  
- ## Youtube Links
+ ## Youtube Urls
  
-    <a href="https://www.youtube.com/watch?t=61&amp;v=JozAmXo2bDE" rel="nofollow">https://www.youtube.com/watch?t=61&amp;v=JozAmXo2bDE</a><br>
+    https://www.youtube.com/watch?t=61&amp;v=JozAmXo2bDE
 
-    <a href="https://www.youtube.com/watch?v=VH2QAMMSL40" rel="nofollow">https://www.youtube.com/watch?v=VH2QAMMSL40</a><br>
+    https://www.youtube.com/watch?v=VH2QAMMSL40
 
-    <a href="http://www.youtube.com/embed/NLqAF9hrVbY" rel="nofollow">http://www.youtube.com/embed/NLqAF9hrVbY</a><br>
+    http://www.youtube.com/embed/NLqAF9hrVbY
 
-    <a href="http://youtu.be/NLqAF9hrVbY" rel="nofollow">http://youtu.be/NLqAF9hrVbY</a>
+    http://youtu.be/NLqAF9hrVbY
  
- 
- ## Vimeo Links
+    https://www.youtube.com/watch?v=dS1RVI_VEs0&amp;list=PLBXmeocYXDfBPHrvmak97BrstUYTvBfFG
     
-    <a href="https://vimeo.com/130279788" rel="nofollow">https://vimeo.com/130279788</a>
+    
+ ## Vimeo Urls
+    
+    https://vimeo.com/130279788
 
-    <a href="https://vimeo.com/channels/staffpicks/133122341" rel="nofollow">https://vimeo.com/channels/staffpicks/133122341</a>
+    https://vimeo.com/channels/staffpicks/133122341
  
  
- ## Facebook Links
+ ## Facebook Urls
  
-    <a href="https://www.facebook.com/fridolinDD/videos/vb.100000066602469/1007904135888464/?type=2&amp;theater" rel="nofollow">https://www.facebook.com/fridolinDD/videos/vb.100000066602469/1007904135888464/?type=2&amp;theater</a>
+    https://www.facebook.com/fridolinDD/videos/vb.100000066602469/1007904135888464/?type=2&amp;theater
+    
+ 
+ ## Dailymotion Urls
+ 
+    http://www.dailymotion.com/video/x2zrdut_slow-west-jetzt-im-kinomagazin-now-on-screen_shortfilms
+    
+ 
+ ## Vine Urls
+    
+    https://vine.co/v/OLYpnEjagqQ
+    
+    
     

@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-plugin-embed-videos",
 	"name": "NodeBB Embed-Video Plugin",
-	"description": "With this plugin, videos from Youtube, Vimeo, Facebook displays",
+	"description": "With this plugin, videos from Youtube, Vimeo, Facebook, Vine, Dailymotion displays",
 	"url": "https://github.com/ogerly/nodebb-plugin-embed-videos",
 	"library": "./library.js",
 	"hooks": [
