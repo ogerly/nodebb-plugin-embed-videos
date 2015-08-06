@@ -70,3 +70,7 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     https://de.pinterest.com/pin/29414203793917475/
     
     
+    ###Insert the following code in the Custom HTML!    
+    <script type="text/javascript"  src="//assets.pinterest.com/js/pinit.js"></script>
+
+    
