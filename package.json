@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-embed-videos",
-  "version": "0.0.2",
-  "description": "With this plugin, videos from Youtube, Vimeo, Facebook, Vine, Dailymotion displays",
+  "version": "0.0.3",
+  "description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,9 @@
     "vimeo",
     "dailymotion",
     "vine",
+    "Mixcloud",
+    "spotify",
+    "pinterest", 
     "video",
     "embed"
   ],

@@ -1,8 +1,8 @@
 # NodeBB Embed-Videos Plugin
 
-With this plugin, video from Youtube, Vimeo, Facebook, Vine, Dailymotion displays.
+With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.
 
-    the url must be in a <a> day.
+    the url must be in a <A> tag.
     is detected, the entire link and the respective ID.
 
 
@@ -32,9 +32,11 @@ With this plugin, video from Youtube, Vimeo, Facebook, Vine, Dailymotion display
     https://vimeo.com/channels/staffpicks/133122341
  
  
+ 
  ## Facebook Urls
  
     https://www.facebook.com/fridolinDD/videos/vb.100000066602469/1007904135888464/?type=2&amp;theater
+    
     
  
  ## Dailymotion Urls
@@ -42,9 +44,29 @@ With this plugin, video from Youtube, Vimeo, Facebook, Vine, Dailymotion display
     http://www.dailymotion.com/video/x2zrdut_slow-west-jetzt-im-kinomagazin-now-on-screen_shortfilms
     
  
+ 
  ## Vine Urls
     
     https://vine.co/v/OLYpnEjagqQ
     
+    
+    
+ ## Mixcloud
+     
+     https://www.mixcloud.com/scheibosan/scheibosan-gomde-summerparty-2015-big-chill-how-slow-can-u-go/
+     
+     
+     
+ ## spotify
+ 
+    https://play.spotify.com/album/56qhSdV2i3pTFr5Pi5ZzbQ
+
+    https://play.spotify.com/artist/0shGXlIx6zAwyctdtnJn4D
+ 
+ 
+ 
+ ## pinterest
+    
+    https://de.pinterest.com/pin/29414203793917475/
     
     
