@@ -67,10 +67,9 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
  
  ## pinterest
     
-    https://de.pinterest.com/pin/29414203793917475/
-    
-    
-    ###Insert the following code in the Custom HTML!    
-    <script type="text/javascript"  src="//assets.pinterest.com/js/pinit.js"></script>
+    https://de.pinterest.com/pin/29414203793917475/   
+     
+    <!-- Please call pinit.js only once per page -->
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
     
