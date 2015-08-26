@@ -4,7 +4,7 @@
 	var EmbedVideo = {},
 		
 		embed_vimeo            = '<iframe class="vimeo-embed" src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
-		embed_youtube          = '<div class="js-lazyYT" data-youtube-id="$1" data-width="640" data-height="360"><iframe class="lazytube" src="//www.youtube.com/embed/$1"></iframe></div>',
+		embed_youtube          = '<iframe width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen src="//www.youtube.com/embed/$1"></iframe>',
      	embed_facebook         = '<iframe src="https://www.facebook.com/video/embed?video_id=$1" width="650" height="400" frameborder="0" allowfullscreen></iframe>',
      	embed_dailymotion      = '<iframe class="dailymotion-embed" frameborder="0" width="480" height="270" src="http://www.dailymotion.com/embed/video/$1"></iframe>',
       embed_vine             = '<iframe class="vine-embed" src="https://vine.co/v/$1/embed/postcard?related=0" width="480" height="480" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script>',   
@@ -12,7 +12,7 @@
       embed_spotify          = '<iframe src="https://embed.spotify.com/?uri=spotify:track:$1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>',
       embed_spotify_album    = '<iframe src="https://embed.spotify.com/?uri=spotify:user:erebore:playlist:$1&theme=white&view=coverart" frameborder="0" allowtransparency="true"></iframe>',
       embed_pinterest_pin    = '<a data-pin-do="embedPin" href="http://de.pinterest.com/pin/$1/"></a>',	  
-
+      embed_foursquare       = '<iframe src="https://foursquare.com/v/$1" width="960" height="800"><p>Ihr Browser kann leider keine Iframes darstellen!</p></iframe>',
 
       	  
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
@@ -23,8 +23,8 @@
 	   embedUrl_mixcloud      = /<a href="http.?:\/\/?.*\.mixcloud\.com\/(\w*)\/(.*)?\/<\/a>/g,
 	   embedUrl_spotify       = /<a href="http.?:.*play.spotify.com\/artist\/(.*)<\/a>/g,
 	   embedUrl_spotify_album = /<a href="http.?:.*play.spotify.com\/album\/(.*)<\/a>/g,
-      embedUrl_pinterest_pin = /<a href="http.?:.*pinterest.com\/pin\/(\w*).*<\/a>/g;
-     	  
+      embedUrl_pinterest_pin = /<a href="http.?:.*pinterest.com\/pin\/(\w*).*<\/a>/g,
+     	embedUrl_foursquare    = /<a href="http.?:.*foursquare.com\/v\/(.*)<\/a>/g;
      	  
      	  
 	EmbedVideo.parse = function(data, callback) {
@@ -57,6 +57,9 @@
         }
         if (data.postData.content.match(embedUrl_pinterest_pin)) {        
             data.postData.content = data.postData.content.replace(embedUrl_pinterest_pin, embed_pinterest_pin);
+        }
+        if (data.postData.content.match(embedUrl_foursquare)) {        
+            data.postData.content = data.postData.content.replace(embedUrl_foursquare, embed_foursquare);
         }
         
         callback(null, data);

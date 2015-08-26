@@ -1,17 +1,14 @@
 {
   "name": "nodebb-plugin-embed-videos",
-  "version": "0.0.3",
-  "description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
-  "main": "library.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+	  "version": "0.0.4",
+		  "description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
+			  "main": "library.js",
+repository": {
     "type": "git",
-    "url": "git+https://github.com/ogerly/nodebb-plugin-embed-videos.git"
-  },
-  "nbbpm": {
-    "compatibility": "^0.7.2"
+    "url": "https://github.com/ogerly/nodebb-plugin-embed-videos.git"
+									  },
+	"nbbpm": {
+    "compatibility": "0.7.3"
   },
   "keywords": [
     "nodebb",
@@ -28,7 +25,8 @@
     "embed"
   ],
   "author": {
-    "name": "ogerly",
+    "name": "Alexander Friedland",
     "email": "landmatrosen@gmail.com"
   }
+	
  }
