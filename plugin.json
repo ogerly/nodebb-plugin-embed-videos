@@ -5,9 +5,11 @@
 	"url": "https://github.com/ogerly/nodebb-plugin-embed-videos",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:parse.post", "method": "parse", "callbacked": true }
-	],
+        { "hook": "filter:parse.post", "method": "parse", "callbacked": true }	],
 	"staticDirs": {
-        "css": "./static"
-    }
+        "static": "./static"
+    },
+    "css": [
+        "static/style.css"
+    ]
 }
