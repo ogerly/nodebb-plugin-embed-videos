@@ -5,7 +5,8 @@
 		
 		embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 		embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
-     	embed_facebook         = '<div class="embed-container"><iframe src="https://www.facebook.com/video/embed?video_id=$1" width="640" height="360" frameborder="0" allowfullscreen ></iframe></div>',
+      embed_facebook         = '<div class="embed-container"><iframe src="https://www.facebook.com/video/embed?video_id=$1" width="640" height="360" frameborder="0" allowfullscreen ></iframe></div>',
+     	     	
      	embed_dailymotion      = '<div class="embed-container"><iframe src="http://www.dailymotion.com/embed/video/$1" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>',
       embed_vine             = '<div class="embed-container"><iframe src="https://vine.co/v/$1/embed/postcard?related=0" width="640" height="360" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script></div>',   
       embed_mixcloud         = '<iframe src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=ecd38451-4abc-4c37-85a9-065b45fd8850&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2F$1%2F$2%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" width="" height="180" frameborder="0"></iframe>',  	  
