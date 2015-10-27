@@ -17,7 +17,7 @@
 
       	  
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
-	  	embedUrl_youtube       = /<a href="http.?:.*(?:youtube.com\/|youtu.be\/)(?!channel)(?:watch\?v=|watch\?t=.*v=|embed\/|)(.*)<\/a>/g,
+	  	embedUrl_youtube       = /<a href="http.?:.*(?:youtube.com\/|youtu.be\/)(?!channel|user)(?:watch\?v=|watch\?t=.*v=|embed\/|)(.*)<\/a>/g,
 	   embedUrl_facebook      = /<a href="http.:\/\/.+facebook.com\/\w+\.?\w+\/videos\/(\w+).*<\/a>/ig,
 	   embedUrl_dailymotion   = /<a href="(?:https?:\/\/)?(?:www\.)dailymotion\.com\/video\/(.*)" .*<\/a>/g,
 	   embedUrl_vine          = /<a href="(?:https?:\/\/)?(?:vine\.co)\/\w*\/(\w*).*<\/a>/g,
