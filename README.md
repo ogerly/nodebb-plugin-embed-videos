@@ -29,7 +29,7 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
          3.	[index=]	 `1`
          4.	[list=]	     `PLuC2HflhhpLGQ4RgqA76_Gv52fGA0909r`
     
-       REGEX =   /(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*)/g
+       REGEX GLOBAL =   <a href="(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*).*<\/a>
     
     
     
