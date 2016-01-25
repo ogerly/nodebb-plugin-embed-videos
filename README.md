@@ -22,7 +22,7 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
  
  ## Youtube Urls
     
-    REGEX Example: https://regex101.com/r/xJ8zJ5/1
+REGEX Example: https://regex101.com/r/xJ8zJ5/1
     
          1.	[v=]	    `fqMfRi2gJok`
          2.	[t=]	     `300`
