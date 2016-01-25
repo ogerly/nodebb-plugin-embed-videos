@@ -22,19 +22,12 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
  
  ## Youtube Urls
     
-REGEX Example: https://regex101.com/r/xJ8zJ5/1
-    
-         1.	[v=]	    `fqMfRi2gJok`
-         2.	[t=]	     `300`
-         3.	[index=]	 `1`
-         4.	[list=]	     `PLuC2HflhhpLGQ4RgqA76_Gv52fGA0909r`
-    
-       REGEX GLOBAL =   <a href="(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*).*<\/a>
-      
-      MATCH Link in Content : <div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2?index=$3?list=$4" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
-     
-    
-    
+     https://www.youtube.com/watch?v=TeEig39VlaM 
+
+     https://www.youtube.com/watch?v=TeEig39VlaM&list=PL3o0e-hOhy7Grqy2fBaYDi6m7KoG7mK0F  
+
+    https://www.youtu.be/TeEig39VlaM 
+
  ## Vimeo Urls
     
     https://vimeo.com/130279788
