@@ -21,16 +21,16 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     
  
  ## Youtube Urls
- 
-    https://www.youtube.com/watch?t=61&amp;v=JozAmXo2bDE
-
-    https://www.youtube.com/watch?v=VH2QAMMSL40
-
-    http://www.youtube.com/embed/NLqAF9hrVbY
-
-    http://youtu.be/NLqAF9hrVbY
- 
-    https://www.youtube.com/watch?v=dS1RVI_VEs0&amp;list=PLBXmeocYXDfBPHrvmak97BrstUYTvBfFG
+    
+    REGEX Example: https://regex101.com/r/xJ8zJ5/1
+    
+         1.	[v=]	    `fqMfRi2gJok`
+         2.	[t=]	     `300`
+         3.	[index=]	 `1`
+         4.	[list=]	     `PLuC2HflhhpLGQ4RgqA76_Gv52fGA0909r`
+    
+       REGEX =   /(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*)/g
+    
     
     
  ## Vimeo Urls
