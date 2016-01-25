@@ -4,7 +4,7 @@
 	var EmbedVideo = {},
 		
 		embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
-		embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
+		embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
       embed_facebook         = '<div class="embed-container"><iframe src="https://www.facebook.com/video/embed?video_id=$1" width="640" height="360" frameborder="0" allowfullscreen ></iframe></div>',
      	     	
      	embed_dailymotion      = '<div class="embed-container"><iframe src="http://www.dailymotion.com/embed/video/$1" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>',
@@ -17,7 +17,7 @@
 
       	  
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
-	  	embedUrl_youtube       = /<a href="http.?:.*(?:youtube.com\/|youtu.be\/)(?!channel)(?:watch\?v=|watch\?t=.*v=|embed\/|)(.*)<\/a>/g,
+	  	embedUrl_youtube       = /<a href="http.?:.*(?:youtube.com\/|youtu.be\/)(?!channel)(?:watch\?v=|watch\?v=|embed\/|)(.*)(?:\?t=)(.*)<\/a>/g,
 	   embedUrl_facebook      = /<a href="http.:\/\/.+facebook.com\/\w+\.?\w+\/videos\/(\w+).*<\/a>/ig,
 	   embedUrl_dailymotion   = /<a href="(?:https?:\/\/)?(?:www\.)dailymotion\.com\/video\/(.*)" .*<\/a>/g,
 	   embedUrl_vine          = /<a href="(?:https?:\/\/)?(?:vine\.co)\/\w*\/(\w*).*<\/a>/g,
@@ -27,7 +27,7 @@
       embedUrl_pinterest_pin = /<a href="http.?:.*pinterest.com\/pin\/(\w*).*<\/a>/g,
      	embedUrl_foursquare    = /<a href="http.?:.*foursquare.com\/v\/(.*)<\/a>/g;
      	  
-     	  
+     	   
 	EmbedVideo.parse = function(data, callback) {
 	    if (!data || !data.postData || !data.postData.content) {
             return callback(null, data);
