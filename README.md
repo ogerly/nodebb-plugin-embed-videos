@@ -6,6 +6,9 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     is detected, the entire link and the respective ID.
 
 
+### NodeBB version 
+
+     run in NodeBB v0.7.x - v1.0.0
 
 
 
