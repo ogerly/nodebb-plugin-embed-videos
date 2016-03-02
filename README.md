@@ -6,9 +6,16 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     is detected, the entire link and the respective ID.
 
 
+<<<<<<< HEAD
 ### NodeBB version 
 
      run in NodeBB v0.7.x - v1.0.0
+=======
+
+## Version
+
+0.1.1 > EMBED A YOUTUBE VIDEO WITH A SPECIFIC START TIME 
+>>>>>>> 850953ec618de0396598757a5171aec440782891
 
 
 
@@ -20,18 +27,13 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     
  
  ## Youtube Urls
- 
-    https://www.youtube.com/watch?t=61&amp;v=JozAmXo2bDE
-
-    https://www.youtube.com/watch?v=VH2QAMMSL40
-
-    http://www.youtube.com/embed/NLqAF9hrVbY
-
-    http://youtu.be/NLqAF9hrVbY
- 
-    https://www.youtube.com/watch?v=dS1RVI_VEs0&amp;list=PLBXmeocYXDfBPHrvmak97BrstUYTvBfFG
     
-    
+     https://www.youtube.com/watch?v=TeEig39VlaM 
+
+     https://www.youtube.com/watch?v=TeEig39VlaM&list=PL3o0e-hOhy7Grqy2fBaYDi6m7KoG7mK0F  
+
+    https://www.youtu.be/TeEig39VlaM 
+
  ## Vimeo Urls
     
     https://vimeo.com/130279788

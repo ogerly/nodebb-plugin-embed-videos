@@ -3,11 +3,19 @@
 
 	var EmbedVideo = {},
 		
+<<<<<<< HEAD
 		embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 		embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2?list=$4" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
      
       embed_facebook         = '<div class="embed-container"><iframe src="https://www.facebook.com/video/embed?video_id=$1" width="640" height="360" frameborder="0" allowfullscreen ></iframe></div>',
      	embed_dailymotion      = '<div class="embed-container"><iframe src="http://www.dailymotion.com/embed/video/$1" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>',
+=======
+      embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
+      embed_youtube_pl       = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?list=$2" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
+      embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
+      embed_facebook         = '<div class="embed-container"><iframe src="https://www.facebook.com/video/embed?video_id=$1" width="640" height="360" frameborder="0" allowfullscreen ></iframe></div>',
+      embed_dailymotion      = '<div class="embed-container"><iframe src="http://www.dailymotion.com/embed/video/$1" width="640" height="360" frameborder="0" allowfullscreen></iframe></div>',
+>>>>>>> 850953ec618de0396598757a5171aec440782891
       embed_vine             = '<div class="embed-container"><iframe src="https://vine.co/v/$1/embed/postcard?related=0" width="640" height="360" frameborder="0"></iframe><script async src="//platform.vine.co/static/scripts/embed.js" charset="utf-8"></script></div>',   
       embed_mixcloud         = '<iframe src="https://www.mixcloud.com/widget/iframe/?embed_type=widget_standard&amp;embed_uuid=ecd38451-4abc-4c37-85a9-065b45fd8850&amp;feed=https%3A%2F%2Fwww.mixcloud.com%2F$1%2F$2%2F&amp;hide_artwork=1&amp;hide_cover=1&amp;hide_tracklist=1&amp;replace=0" width="" height="180" frameborder="0"></iframe>',  	  
       embed_spotify          = '<iframe src="https://embed.spotify.com/?uri=spotify:track:$1" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>',
@@ -17,6 +25,7 @@
 
       	  
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
+<<<<<<< HEAD
 	  	embedUrl_youtube       = /<a href="(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*).*<\/a>/g,
 	   embedUrl_facebook      = /<a href="http.:\/\/.+facebook.com\/\w+\.?\w+\/videos\/(\w+).*<\/a>/ig,
 	   embedUrl_dailymotion   = /<a href="(?:https?:\/\/)?(?:www\.)dailymotion\.com\/video\/(.*)" .*<\/a>/g,
@@ -24,11 +33,24 @@
 	   embedUrl_mixcloud      = /<a href="http.?:\/\/?.*\.mixcloud\.com\/(\w*)\/(.*)?\/<\/a>/g,
 	   embedUrl_spotify       = /<a href="http.?:.*play.spotify.com\/artist\/(.*)<\/a>/g,
 	   embedUrl_spotify_album = /<a href="http.?:.*play.spotify.com\/album\/(.*)<\/a>/g,
+=======
+      embedUrl_youtube_pl    = /<a href=".*(?:youtu.be|youtube.com).*(?:v=)([a-zA-Z0-9_-]*)?.*list{1}=([a-zA-Z0-9_-]*)<\/a>/g,
+      embedUrl_youtube       = /<a href=".*(?:youtu.be|youtube.com)(?:.*(?:v=)|(?:\/))([a-zA-Z0-9_-]*)(?:\?t=)?([0-9]*)<\/a>/g,
+      embedUrl_facebook      = /<a href="http.:\/\/.+facebook.com\/\w+\.?\w+\/videos\/(\w+).*<\/a>/ig,
+      embedUrl_dailymotion   = /<a href="(?:https?:\/\/)?(?:www\.)dailymotion\.com\/video\/(.*)" .*<\/a>/g,
+      embedUrl_vine          = /<a href="(?:https?:\/\/)?(?:vine\.co)\/\w*\/(\w*).*<\/a>/g,
+      embedUrl_mixcloud      = /<a href="http.?:\/\/?.*\.mixcloud\.com\/(\w*)\/(.*)?\/<\/a>/g,
+      embedUrl_spotify       = /<a href="http.?:.*play.spotify.com\/artist\/(.*)<\/a>/g,
+      embedUrl_spotify_album = /<a href="http.?:.*play.spotify.com\/album\/(.*)<\/a>/g,
+>>>>>>> 850953ec618de0396598757a5171aec440782891
       embedUrl_pinterest_pin = /<a href="http.?:.*pinterest.com\/pin\/(\w*).*<\/a>/g,
-     	embedUrl_foursquare    = /<a href="http.?:.*foursquare.com\/v\/(.*)<\/a>/g;
+      embedUrl_foursquare    = /<a href="http.?:.*foursquare.com\/v\/(.*)<\/a>/g;
      	  
+<<<<<<< HEAD
      	  
-     	  
+=======
+     //	embedUrl_youtube       = /<a href="(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*).*<\/a>/g,     	  
+>>>>>>> 850953ec618de0396598757a5171aec440782891
      // Youtube url check [videoID] or [playlistID]
      
 
@@ -39,6 +61,9 @@
         }
         if (data.postData.content.match(embedUrl_vimeo)) {        
             data.postData.content = data.postData.content.replace(embedUrl_vimeo, embed_vimeo);
+        }
+        if (data.postData.content.match(embedUrl_youtube_pl)) {        
+            data.postData.content = data.postData.content.replace(embedUrl_youtube_pl, embed_youtube_pl);
         }
         if (data.postData.content.match(embedUrl_youtube)) {        
             data.postData.content = data.postData.content.replace(embedUrl_youtube, embed_youtube);
