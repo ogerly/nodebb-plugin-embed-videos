@@ -1,14 +1,14 @@
 {
      "name"			: "nodebb-plugin-embed-videos",
-	  "version"		: "0.0.8",
+	  "version"		: "0.1.4",
 	  "description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
 	  "main"			: "library.js",
-  "repository": {
+  "repository": { 
      "type"			: "git",
      "url"			: "https://github.com/ogerly/nodebb-plugin-embed-videos.git"
    },					
 	"nbbpm": {
-    "compatibility": "v0.7.3 - v0.9.3"
+    "compatibility": "v0.7.3 - v1.0.0"
   },
   "keywords": [
     "nodebb",

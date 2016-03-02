@@ -6,6 +6,10 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     is detected, the entire link and the respective ID.
 
 
+
+
+
+
 ## Installation
 
     npm install nodebb-plugin-embed-videos
