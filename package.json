@@ -1,6 +1,6 @@
 {
      "name"			: "nodebb-plugin-embed-videos",
-	  "version"		: "0.1.7",
+	  "version"		: "0.1.8",
 	  "description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
 	  "main"			: "library.js",
   "repository": { 
