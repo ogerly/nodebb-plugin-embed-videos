@@ -3,7 +3,7 @@
 
 	var EmbedVideo = {},
 		
-
+		embed_openload         = '<div class="embed-container"><iframe src="//openload.co/embed/$1" scrolling="no" frameborder="0" width="700" height="430" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 		embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 		embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2?list=$4" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
      
@@ -25,7 +25,7 @@
 
       	  
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
-
+      embedUrl_openload      = /<a href=".*(?:oload.site|openload.co)(?:.*(?:v=)|(?:\/))([a-zA-Z0-9_-]*)(?:\?t=)?([0-9]*)<\/a>/g,	
 	  	embedUrl_youtube       = /<a href="(?:http.?:\/\/)?(?:www.)?(?:(?:youtube.com\/)|(?:youtu.be\/))(?!playlist|embed\/video)(?:(?:watch\?v=)|(?:embed\/)|(?:v\/)|)?([a-zA-Z0-9-_]*)(?:(?:\?t=)?([0-9]*))(?:&index=)?([0-9]*)(?:&list=)?([a-zA-Z0-9-_]*).*<\/a>/g,
 	   embedUrl_facebook      = /<a href="http.:\/\/.+facebook.com\/\w+\.?\w+\/videos\/(\w+).*<\/a>/ig,
 	   embedUrl_dailymotion   = /<a href="(?:https?:\/\/)?(?:www\.)dailymotion\.com\/video\/(.*)" .*<\/a>/g,
