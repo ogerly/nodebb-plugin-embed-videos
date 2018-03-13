@@ -1,6 +1,6 @@
 # NodeBB Embed-Videos Plugin
 
-With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.
+With this plugin, video, audio, images from Openload, Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.
 
     the url must be in a <A> tag.
     is detected, the entire link and the respective ID.
@@ -25,7 +25,10 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
     npm install nodebb-plugin-embed-videos
     
     
- 
+## Openload Urls
+    
+    https://openload.co/f/YSg2LvsCaxU/
+    
  ## Youtube Urls
     
      https://www.youtube.com/watch?v=TeEig39VlaM 
