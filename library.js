@@ -59,6 +59,9 @@
 	    if (!data || !data.postData || !data.postData.content) {
             return callback(null, data);
         }
+	if (data.postData.content.match(embedUrl_openload)) {        
+            data.postData.content = data.postData.content.replace(embedUrl_openload, embed_openload);
+        }
         if (data.postData.content.match(embedUrl_vimeo)) {        
             data.postData.content = data.postData.content.replace(embedUrl_vimeo, embed_vimeo);
         }
