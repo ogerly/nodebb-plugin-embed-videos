@@ -5,7 +5,7 @@
 	  "main"			: "library.js",
   "repository": { 
      "type"			: "git",
-     "url"			: "https://github.com/ogerly/nodebb-plugin-embed-videos.git"
+     "url"			: "https://github.com/MoeNetwork/nodebb-plugin-embed-videos.git"
    },					
 	"nbbpm": {
     "compatibility": "<=1.0.0"
@@ -25,8 +25,8 @@
     "embed"
   ],
   "author": {
-    "name": "Alexander Friedland",
-    "email": "landmatrosen@gmail.com"
+    "name": "Sakura",
+    "email": "admin@kotori.net"
   }
 	
  }
