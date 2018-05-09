@@ -3,7 +3,7 @@
 
 	var EmbedVideo = {},
 	  
-	  embed_steam            = '<div class="embed-container"><iframe src="https://store.steampowered.com/widget/$1/" frameborder="0" width="646" height="190"></iframe></div>',
+	  embed_steam            = '<iframe src="https://store.steampowered.com/widget/$1/" frameborder="0" width="646" height="190"></iframe>',
 	  embed_vshare           = '<div class="embed-container"><iframe src="//vshare.io/v/$1/width-470/height-305/" scrolling="no" frameborder="0" width="470" height="305" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 	  embed_openload         = '<div class="embed-container"><iframe src="//openload.co/embed/$1" scrolling="no" frameborder="0" width="700" height="430" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 	  embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
