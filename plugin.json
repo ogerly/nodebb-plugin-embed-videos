@@ -2,7 +2,7 @@
 	"id": "nodebb-plugin-embed-videos",
 	"name": "NodeBB Embed-Video Plugin",
 	"description": "With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.",
-	"url": "https://github.com/ogerly/nodebb-plugin-embed-videos",
+	"url": "https://github.com/MoeNetwork/nodebb-plugin-embed-videos",
 	"library": "./library.js", 
 	"hooks": [
         { "hook": "filter:parse.post", "method": "parse", "callbacked": true }	],
