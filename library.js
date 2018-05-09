@@ -56,7 +56,7 @@
 	    if (!data || !data.postData || !data.postData.content) {
             return callback(null, data);
         }
-		if (data.postData.content.match(embedUrl_steam)) {        
+		if (data.postData.content.match(embedUrl_steam)) {         
             data.postData.content = data.postData.content.replace(embedUrl_steam, embed_steam);
         }
 		if (data.postData.content.match(embedUrl_openload)) {        
