@@ -3,8 +3,8 @@
 
 	var EmbedVideo = {},
 	  
-	  
-	  embed_vshare         = '<div class="embed-container"><iframe src="//vshare.io/v/$1/width-470/height-305/" scrolling="no" frameborder="0" width="470" height="305" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
+	  embed_steam            = '<div class="embed-container"><iframe src="https://store.steampowered.com/widget/$1/" frameborder="0" width="646" height="190"></iframe></div>',
+	  embed_vshare           = '<div class="embed-container"><iframe src="//vshare.io/v/$1/width-470/height-305/" scrolling="no" frameborder="0" width="470" height="305" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 	  embed_openload         = '<div class="embed-container"><iframe src="//openload.co/embed/$1" scrolling="no" frameborder="0" width="700" height="430" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 	  embed_vimeo            = '<div class="embed-container"><iframe src="//player.vimeo.com/video/$1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',
 	  embed_youtube          = '<div class="embed-container"><iframe src="//www.youtube.com/embed/$1?start=$2?list=$4" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>',     
@@ -21,6 +21,7 @@
       embed_spotify_album    = '<iframe src="https://embed.spotify.com/?uri=spotify:user:erebore:playlist:$1&theme=white&view=coverart" frameborder="0" allowtransparency="true"></iframe>',
       embed_pinterest_pin    = '<a data-pin-do="embedPin" href="http://de.pinterest.com/pin/$1/"></a>',	  
       embed_foursquare       = '<iframe src="https://foursquare.com/v/$1" width="960" height="800"><p>Ihr Browser kann leider keine Iframes darstellen!</p></iframe>', 	  
+      embedUrl_steam         = /<a href=".*(?:store.steampowered.com)\/app\/(.*)<\/a>/g,
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
       embedUrl_openload      = /<a href=".*(?:openload.co|oload.site)\/embed\/(.*)<\/a>/g,
 	  embedUrl_vshare        = /<a href=".*(?:vshare.io|www.vshare.io)\/v\/(.*)<\/a>/g,
