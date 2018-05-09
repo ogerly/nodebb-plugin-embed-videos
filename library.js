@@ -62,7 +62,7 @@
 		if (data.postData.content.match(embedUrl_openload)) {        
             data.postData.content = data.postData.content.replace(embedUrl_openload, embed_openload);
         }
-		if (data.postData.content.match(embedUrl_vhare)) {        
+		if (data.postData.content.match(embedUrl_vshare)) {        
             data.postData.content = data.postData.content.replace(embedUrl_vshare, embed_vshare);
         }
         if (data.postData.content.match(embedUrl_vimeo)) {        
