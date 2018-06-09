@@ -23,7 +23,7 @@
       embed_pinterest_pin    = '<a data-pin-do="embedPin" href="http://de.pinterest.com/pin/$1/"></a>',	  
       embed_foursquare       = '<iframe src="https://foursquare.com/v/$1" width="960" height="800"><p>Ihr Browser kann leider keine Iframes darstellen!</p></iframe>', 	  
       embedUrl_steam         = /<a href=".*(?:store.steampowered.com)\/app\/(.*)<\/a>/g,
-	  embedUrl_bilibili      = /<a href="(?:https?:\/\/)?(?:www\.)bilibili\.com\/video\/av\(.*)" .*<\/a>/g,
+	  embedUrl_bilibili      = /<a href="(?:https?:\/\/)?(?:www\.)bilibili\.com\/video\/av\(.*)<\/a>/g,
       embedUrl_vimeo         = /<a href="(?:https?:\/\/)?(?:www\.)?(?:vimeo\.com\/)(?:\D*|).*(\w{9})<\/a>/g,
       embedUrl_openload      = /<a href=".*(?:openload.co|oload.site)\/embed\/(.*)<\/a>/g,
 	  embedUrl_vshare        = /<a href=".*(?:vshare.io|www.vshare.io)\/v\/(.*)<\/a>/g,
