@@ -22,7 +22,7 @@ With this plugin, video, audio, images from Openload, Youtube, Vimeo, Facebook, 
 
 ## Installation
 
-    npm install git+https://github.com/MoeNetwork/nodebb-plugin-embed-videos/nodebb-plugin-embed-videos
+    npm install git+https://github.com/MoeNetwork/nodebb-plugin-embed-videos
     
    
 
