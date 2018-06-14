@@ -1,6 +1,6 @@
 # NodeBB Embed-Videos Plugin
 
-With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.
+With this plugin, video, audio, images from Openload, Youtube, Vimeo, Facebook, Vine, Dailymotion, Mixcloud, spotify, pinterest embeded.
 
     the url must be in a <A> tag.
     is detected, the entire link and the respective ID.
@@ -14,7 +14,7 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
 
 ## Version
 
-0.1.1 > EMBED A YOUTUBE VIDEO WITH A SPECIFIC START TIME 
+0.1.15 > Added Bilibili 
 
 
 
@@ -22,15 +22,24 @@ With this plugin, video, audio, images from Youtube, Vimeo, Facebook, Vine, Dail
 
 ## Installation
 
-    npm install nodebb-plugin-embed-videos
+    npm install git+https://github.com/MoeNetwork/nodebb-plugin-embed-videos
     
+   
+
+## Bilibili Urls
     
- 
+    https://www.bilibili.com/video/av24434167
+
+	
+## Openload Urls
+    
+    https://openload.co/f/YSg2LvsCaxU/
+    
  ## Youtube Urls
     
-     https://www.youtube.com/watch?v=TeEig39VlaM 
+    https://www.youtube.com/watch?v=TeEig39VlaM 
 
-     https://www.youtube.com/watch?v=TeEig39VlaM&list=PL3o0e-hOhy7Grqy2fBaYDi6m7KoG7mK0F  
+    https://www.youtube.com/watch?v=TeEig39VlaM&list=PL3o0e-hOhy7Grqy2fBaYDi6m7KoG7mK0F  
 
     https://www.youtu.be/TeEig39VlaM 
 
